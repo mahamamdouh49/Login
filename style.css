@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.content{
+background-color: #ccc;
+padding: 30px;
+width: 500px;
+text-align: center;
+}
+input{
+    display: flex;
+    margin: 20px auto;
+    width: 80%;
+    padding: 10px;
+    outline: none;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.username-error{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    display: none;
+}
+.password-error{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    display: none;
+}
